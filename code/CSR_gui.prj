@@ -1,0 +1,126 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3356499897" file="C:\Users\omri1348\Desktop\work\matlab_project\code\old_version\Code 1.8\CSR_gui.prj" location="C:\Users\omri1348\Desktop\work\matlab_project\code\old_version\Code 1.8" name="CSR_gui" target="target.mlapps" target-name="Package App">
+    <param.appname>CSR_gui</param.appname>
+    <param.authnamewatermark>Omri Puny</param.authnamewatermark>
+    <param.email>punyomri@gmail.com</param.email>
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\omri1348\AppData\Local\Temp\tp304013b5_8057_4a04_aeda_621f2bbf93a7.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>C:\Users\omri1348\Desktop\work\matlab_project\code\old_version</param.output>
+    <param.guid>f416c199-9008-4f8b-9fab-e7531e069ee9</param.guid>
+    <unset>
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\mainGui.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\AnalyzeConfig.m</file>
+      <file>${PROJECT_ROOT}\checkAdding.m</file>
+      <file>${PROJECT_ROOT}\checkForming.m</file>
+      <file>${PROJECT_ROOT}\checkLeaving.m</file>
+      <file>${PROJECT_ROOT}\CheckNextIteration.m</file>
+      <file>${PROJECT_ROOT}\checkRemoteVertexes.m</file>
+      <file>${PROJECT_ROOT}\clubPretests.m</file>
+      <file>${PROJECT_ROOT}\config2cell.m</file>
+      <file>${PROJECT_ROOT}\congestionGUI.mlapp</file>
+      <file>${PROJECT_ROOT}\connectivityCheck.m</file>
+      <file>${PROJECT_ROOT}\DCV.m</file>
+      <file>${PROJECT_ROOT}\demoConfig.m</file>
+      <file>${PROJECT_ROOT}\exponential2.m</file>
+      <file>${PROJECT_ROOT}\fromMemberMapTograph.m</file>
+      <file>${PROJECT_ROOT}\getClubCongestion.m</file>
+      <file>${PROJECT_ROOT}\getConfigField.m</file>
+      <file>${PROJECT_ROOT}\getIndCongestion.m</file>
+      <file>${PROJECT_ROOT}\getStabilityYesNo.m</file>
+      <file>${PROJECT_ROOT}\getTdegLinksWeight.m</file>
+      <file>${PROJECT_ROOT}\getWeightMat.m</file>
+      <file>${PROJECT_ROOT}\indPretests.m</file>
+      <file>${PROJECT_ROOT}\mapGui.mlapp</file>
+      <file>${PROJECT_ROOT}\maxNumOfClubs.m</file>
+      <file>${PROJECT_ROOT}\removeAgentFromClubCheck.m</file>
+      <file>${PROJECT_ROOT}\unnecessaryClubs.m</file>
+      <file>${PROJECT_ROOT}\xlsColNum2Str.m</file>
+      <file>${PROJECT_ROOT}\xlwriteCurrentSetupReport3.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\omri1348\Desktop\work\matlab_project\code" name="old_version" optional="false">C:\Users\omri1348\Desktop\work\matlab_project\code\old_version</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2017b</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="polyspacebugfinder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

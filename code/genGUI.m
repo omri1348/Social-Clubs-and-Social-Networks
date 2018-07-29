@@ -1,0 +1,3 @@
+function genGUI
+    mainGuiGen;
+end

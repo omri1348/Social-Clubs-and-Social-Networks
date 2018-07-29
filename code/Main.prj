@@ -1,0 +1,172 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="C:\Users\omri1348\Desktop\work\matlab_project\code\old_version\Code 1.8\Main.prj" location="C:\Users\omri1348\Desktop\work\matlab_project\code\old_version\Code 1.8" name="Main" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>CSR_gui</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Omri Puny</param.authnamewatermark>
+    <param.email>punyomri@gmail.com</param.email>
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\CSR_gui\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\Main\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\Main\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\Main\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\Main</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+      <param.help.text />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\mainGui.mlapp</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\AnalyzeConfig.m</file>
+      <file>${PROJECT_ROOT}\checkAdding.m</file>
+      <file>${PROJECT_ROOT}\checkForming.m</file>
+      <file>${PROJECT_ROOT}\checkLeaving.m</file>
+      <file>${PROJECT_ROOT}\CheckNextIteration.m</file>
+      <file>${PROJECT_ROOT}\checkRemoteVertexes.m</file>
+      <file>${PROJECT_ROOT}\clubPretests.m</file>
+      <file>${PROJECT_ROOT}\config2cell.m</file>
+      <file>${PROJECT_ROOT}\congestionGUI.mlapp</file>
+      <file>${PROJECT_ROOT}\connectivityCheck.m</file>
+      <file>${PROJECT_ROOT}\DCV.m</file>
+      <file>${PROJECT_ROOT}\demoConfig.m</file>
+      <file>${PROJECT_ROOT}\exponential2.m</file>
+      <file>${PROJECT_ROOT}\fromMemberMapTograph.m</file>
+      <file>${PROJECT_ROOT}\getClubCongestion.m</file>
+      <file>${PROJECT_ROOT}\getConfigField.m</file>
+      <file>${PROJECT_ROOT}\getIndCongestion.m</file>
+      <file>${PROJECT_ROOT}\getStabilityYesNo.m</file>
+      <file>${PROJECT_ROOT}\getTdegLinksWeight.m</file>
+      <file>${PROJECT_ROOT}\getWeightMat.m</file>
+      <file>${PROJECT_ROOT}\indPretests.m</file>
+      <file>${PROJECT_ROOT}\mapGui.mlapp</file>
+      <file>${PROJECT_ROOT}\maxNumOfClubs.m</file>
+      <file>${PROJECT_ROOT}\removeAgentFromClubCheck.m</file>
+      <file>${PROJECT_ROOT}\unnecessaryClubs.m</file>
+      <file>${PROJECT_ROOT}\xlsColNum2Str.m</file>
+      <file>${PROJECT_ROOT}\xlwriteCurrentSetupReport3.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\Main\for_testing" name="readme.txt" optional="true">C:\Users\omri1348\Desktop\work\matlab_project\code\old_version\Code 1.8\Main\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\Main\for_testing" name="splash.png" optional="false">C:\Users\omri1348\Desktop\work\matlab_project\code\old_version\Code 1.8\Main\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\Main\for_testing" name="CSR_gui.exe" optional="false">C:\Users\omri1348\Desktop\work\matlab_project\code\old_version\Code 1.8\Main\for_testing\CSR_gui.exe</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2017b</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="polyspacebugfinder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
